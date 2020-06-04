@@ -74,7 +74,7 @@ table {
 body {
     background: #293f50;
     color: #888;
-    font: 300 16px/22px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 300 16px/22px 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -131,7 +131,7 @@ body {
 
 .group:before,
 .group:after {
-    content: "";
+    content: '';
     display: table;
 }
 
@@ -279,7 +279,7 @@ p a {
     cursor: pointer;
     display: inline-block;
     font-weight: 400;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
     margin: 0;
     text-transform: uppercase;
 }
@@ -316,7 +316,7 @@ p a {
     float: left;
     font-size: 48px;
     font-weight: 100;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
     line-height: 44px;
     padding: 40px 0 22px 0;
     text-transform: uppercase;
@@ -330,7 +330,7 @@ p a {
 .primary-nav {
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
 }
 
@@ -457,7 +457,7 @@ form {
 input,
 select,
 textarea {
-    font: 300 16px/22px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 300 16px/22px 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .register-group label {
