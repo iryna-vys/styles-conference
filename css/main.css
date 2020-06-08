@@ -83,11 +83,11 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
+    margin: 0;
+    padding: 0;
     vertical-align: baseline;
 }
 
@@ -315,6 +315,7 @@ em {
 a {
     color: #648880;
     text-decoration: none;
+    transition: color 0.25s, background 0.25s;
 }
 
 a:hover {
@@ -323,16 +324,22 @@ a:hover {
 
 p a {
     border-bottom: 1px solid #dfe2e5;
+    transition: color 0.25s, background 0.25s;
 }
 
 .primary-header a,
 .primary-footer a {
     color: #fff;
+    transition: color 0.25s, background 0.25s, border-bottom 0.25s;
 }
 
 .primary-header a:hover,
 .primary-footer a:hover {
     color: #648880;
+}
+
+.primary-nav a:hover {
+    border-bottom: #fff 2px solid;
 }
 
 /*
@@ -350,11 +357,13 @@ p a {
     letter-spacing: 0.5px;
     margin: 0;
     text-transform: uppercase;
+    transition: background 0.25s, color 0.25s;
 }
 
 .btn-alt {
     border: 1px solid #fff;
     padding: 10px 30px;
+    transition: background 0.25s, color 0.25s;
 }
 
 .btn-alt:hover {
@@ -367,10 +376,25 @@ p a {
     background: #648880;
     padding: 11px 30px;
     font-size: 14px;
+    transition: background 0.25s, color 0.25s;
 }
 
 .btn-default:hover {
     background: #77a198;
+}
+
+/*
+    ========================================
+    Изображения
+    ========================================
+*/
+
+a img{
+    transition: opacity 0.25s;
+}
+
+a:hover img{
+    opacity: 0.8;
 }
 
 /*
@@ -462,6 +486,10 @@ p a {
     font-weight: 100;
 }
 
+.teaser a h3{
+    transition: color 0.25s, background 0.25s;
+}
+
 .teaser a:hover h3 {
     color: #a9b2b9;
 }
@@ -470,7 +498,7 @@ p a {
     border-radius: 5px;
     display: block;
     margin-bottom: 22px;
-    max-width: 100%
+    max-width: 100%;
 }
 
 /*
