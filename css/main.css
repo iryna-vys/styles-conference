@@ -329,8 +329,9 @@ p a {
 
 .primary-header a,
 .primary-footer a {
+    border-bottom: none;
     color: #fff;
-    transition: color 0.25s, background 0.25s, border-bottom 0.25s;
+    transition: color 0.25s, background 0.25s, border-bottom 0.25s ease-in;
 }
 
 .primary-header a:hover,
@@ -389,11 +390,11 @@ p a {
     ========================================
 */
 
-a img{
+a img {
     transition: opacity 0.25s;
 }
 
-a:hover img{
+a:hover img {
     opacity: 0.8;
 }
 
@@ -486,7 +487,7 @@ a:hover img{
     font-weight: 100;
 }
 
-.teaser a h3{
+.teaser a h3 {
     transition: color 0.25s, background 0.25s;
 }
 
