@@ -324,7 +324,6 @@ a:hover {
 
 p a {
     border-bottom: 1px solid #dfe2e5;
-    transition: color 0.25s, background 0.25s;
 }
 
 .primary-header a,
@@ -364,7 +363,6 @@ p a {
 .btn-alt {
     border: 1px solid #fff;
     padding: 10px 30px;
-    transition: background 0.25s, color 0.25s;
 }
 
 .btn-alt:hover {
@@ -377,7 +375,6 @@ p a {
     background: #648880;
     padding: 11px 30px;
     font-size: 14px;
-    transition: background 0.25s, color 0.25s;
 }
 
 .btn-default:hover {
