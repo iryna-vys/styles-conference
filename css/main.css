@@ -315,7 +315,7 @@ em {
 a {
     color: #648880;
     text-decoration: none;
-    transition: color 0.25s, background 0.25s;
+    transition: color 0.25s, background 0.25s, border-color 0.25s;
 }
 
 a:hover {
@@ -338,11 +338,10 @@ p a {
 
 .primary-nav a {
     border-bottom: 2px solid transparent;
-    transition: color 0.25s, background 0.25s, border-bottom 1s;
 }
 
 .primary-nav a:hover {
-    border-bottom: 2px solid #fff;
+    border-color: #fff;
 }
 
 /*
