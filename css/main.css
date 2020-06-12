@@ -213,21 +213,6 @@ body {
 }
 
 /*
-    =======================================
-    @keyframes
-    =======================================
-*/
-
-@keyframes border {
-    from {
-        border-bottom: none;
-    }
-    to {
-        border-bottom: 2px solid #fff;
-    }
-}
-
-/*
     ========================================
     Полосы
     ========================================
@@ -351,8 +336,13 @@ p a {
     color: #648880;
 }
 
+.primary-nav a {
+    border-bottom: 2px solid transparent;
+    transition: color 0.25s, background 0.25s, border-bottom 1s;
+}
+
 .primary-nav a:hover {
-    animation: border 0.25s ease-in-out forwards;
+    border-bottom: 2px solid #fff;
 }
 
 /*
