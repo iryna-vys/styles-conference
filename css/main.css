@@ -83,11 +83,11 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
+    margin: 0;
+    padding: 0;
     vertical-align: baseline;
 }
 
@@ -315,6 +315,7 @@ em {
 a {
     color: #648880;
     text-decoration: none;
+    transition: color 0.25s, background 0.25s, border-color 0.25s;
 }
 
 a:hover {
@@ -335,6 +336,14 @@ p a {
     color: #648880;
 }
 
+.primary-nav a {
+    border-bottom: 2px solid transparent;
+}
+
+.primary-nav a:hover {
+    border-color: #fff;
+}
+
 /*
     ========================================
     Кнопки
@@ -350,6 +359,7 @@ p a {
     letter-spacing: 0.5px;
     margin: 0;
     text-transform: uppercase;
+    transition: background 0.25s, color 0.25s;
 }
 
 .btn-alt {
@@ -371,6 +381,20 @@ p a {
 
 .btn-default:hover {
     background: #77a198;
+}
+
+/*
+    ========================================
+    Изображения
+    ========================================
+*/
+
+a img {
+    transition: opacity 0.25s;
+}
+
+a:hover img {
+    opacity: 0.8;
 }
 
 /*
@@ -462,6 +486,10 @@ p a {
     font-weight: 100;
 }
 
+.teaser a h3 {
+    transition: color 0.25s, background 0.25s;
+}
+
 .teaser a:hover h3 {
     color: #a9b2b9;
 }
@@ -470,7 +498,7 @@ p a {
     border-radius: 5px;
     display: block;
     margin-bottom: 22px;
-    max-width: 100%
+    max-width: 100%;
 }
 
 /*
