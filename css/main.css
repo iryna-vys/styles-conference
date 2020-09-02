@@ -169,8 +169,8 @@ body {
     flex-grow: 1;
     flex-shrink: 0;
     justify-content: center;
-    padding-left: 65px;
-    padding-right: 65px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .primary-footer {
@@ -312,6 +312,7 @@ a:hover {
 
 p a {
     border-bottom: 1px solid #dfe2e5;
+    line-height: normal;
 }
 
 .primary-header a,
