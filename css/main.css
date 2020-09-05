@@ -99,7 +99,6 @@ figcaption,
 figure,
 hgroup,
 menu,
-nav,
 section {
     display: block;
 }
@@ -310,7 +309,8 @@ a:hover {
     color: #a9b2b9;
 }
 
-p a {
+.venue-theatre a,
+.venue-hotel a {
     border-bottom: 1px solid #dfe2e5;
     display: block;
     line-height: normal;
@@ -449,17 +449,13 @@ a:hover img {
 */
 
 .nav {
-    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .nav li {
-    display: inline-block;
     margin: 0 10px;
-    vertical-align: top;
-}
-
-.nav li:last-child {
-    margin-right: 0;
 }
 
 /*
