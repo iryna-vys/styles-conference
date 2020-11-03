@@ -1,0 +1,35 @@
+.primary-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    &__logo {
+        border-top: 4px solid @primary-color;
+        font-size: 48px;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+        line-height: 44px;
+        padding: 40px 0 22px 0;
+        text-transform: uppercase;
+    }
+
+    &__link {
+        color: #fff;
+        
+        &:hover {
+            color: @primary-color;
+        }
+    }
+
+    &__tagline {
+        margin: 66px 0 22px 0;
+        text-align: right;
+    }
+
+    &__nav {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+    }
+}

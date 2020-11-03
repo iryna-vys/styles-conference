@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    &__item {
+        margin: 0 10px;
+    }
+
+    &__link {
+        color: #fff;
+
+        &:hover {
+            color: @primary-color;
+        }
+
+        &--border {
+            border-bottom: 2px solid transparent;
+
+            &:hover {
+            border-color: #fff;
+            }
+        }
+    }
+}
